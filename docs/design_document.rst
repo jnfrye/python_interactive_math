@@ -1,6 +1,8 @@
-# Math website project
+Math website project
+====================
 
-## The "problem"
+The "problem"
+-------------
 
 I have a vision of a better way of writing mathematical papers than currently exists.
 LaTeX is currently the standard for writing mathematics, but it's so *static* and *flat*.
@@ -30,7 +32,8 @@ As for plotting, one of my biggest pet peeves with LaTeX is that it can't (at le
 I've always wished there was a way to put the labels in separately so they're all the same size and font as the document's text.
 This might be asking a lot, but I wish there was a way to JUST send the data along with the tex file, and have it generate the plots on the fly, as opposed to having to keep track of dozens of png files.
 
-## The "solution"
+The "solution"
+--------------
 
 I think a solution to these problems is possible and doesn't exist yet.
 I think when you break the problem down, solutions to the sub-problems already exist, but no one has put it together yet.
@@ -39,15 +42,19 @@ The main things I want from this software are:
 
 * **Interactivity**: I think this needs to be a web project.
 Interactivity is everywhere with web technologies.
+
 * **Content-awareness**: This is where Content-MathML comes in.
 If we wrote our equations using Content-MathML, this part is already solved.
+
 * **Cross-referencing**: This project NEEDS to have cross-referencing support that is at least as good as LaTeX's.
 I think LaTeX's cross-referencing could be improved by having things like theorems, proofs, sections, chapters, important formulae, etc. be *objects* in some object-oriented environment.
+
 * **Ease of use**: I absolutely LOVE typing equations in LyX, and I hate typing them in plain LaTeX.
 I've been playing around with Content-MathML and I think having to remember all of these tags is annoying.
 I don't know how to get around this though; you could write shorthands for them, but then you have to know all the shorthands.
 
-## (Brainstorming)
+(Brainstorming)
+---------------
 
 * I want to get some practice using coq or some other proof assistant thing.
 I think experiencing that would help guide this project

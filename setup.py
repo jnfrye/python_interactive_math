@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 
-from distutils.core import setup
+from setuptools import setup
 
 def readme():
     with open('README.rst') as f:
@@ -18,4 +18,5 @@ setup(
     packages=[
         'py_interactive_math',
     ],
+    install_requires=[],
 )

@@ -6,9 +6,8 @@ The "problem"
 
 I have a vision of a better way of writing mathematical papers than currently exists.
 LaTeX is currently the standard for writing mathematics, but it's so *static* and *flat*.
-<!--
-I need to think of a better way of putting it than "flat"
--->
+.. I need to think of a better way of putting it than "flat"
+
 
 In what ways is it static?
 Well, LaTeX was designed with the goal of rendering documents for print publication, and it's currently not possible to include interactive elements within a PDF (besides simple forms and links).
@@ -41,27 +40,27 @@ I think when you break the problem down, solutions to the sub-problems already e
 The main things I want from this software are:
 
 * **Interactivity**: I think this needs to be a web project.
-Interactivity is everywhere with web technologies.
+  Interactivity is everywhere with web technologies.
 
 * **Content-awareness**: This is where Content-MathML comes in.
-If we wrote our equations using Content-MathML, this part is already solved.
+  If we wrote our equations using Content-MathML, this part is already solved.
 
 * **Cross-referencing**: This project NEEDS to have cross-referencing support that is at least as good as LaTeX's.
-I think LaTeX's cross-referencing could be improved by having things like theorems, proofs, sections, chapters, important formulae, etc. be *objects* in some object-oriented environment.
+  I think LaTeX's cross-referencing could be improved by having things like theorems, proofs, sections, chapters, important formulae, etc. be *objects* in some object-oriented environment.
 
 * **Ease of use**: I absolutely LOVE typing equations in LyX, and I hate typing them in plain LaTeX.
-I've been playing around with Content-MathML and I think having to remember all of these tags is annoying.
-I don't know how to get around this though; you could write shorthands for them, but then you have to know all the shorthands.
+  I've been playing around with Content-MathML and I think having to remember all of these tags is annoying.
+  I don't know how to get around this though; you could write shorthands for them, but then you have to know all the shorthands.
 
 (Brainstorming)
 ---------------
 
 * I want to get some practice using coq or some other proof assistant thing.
-I think experiencing that would help guide this project
+  I think experiencing that would help guide this project
 
 * I'm actually thinking maybe I could use Python to do this.
-I could create classes for each of the tags in the Content-MathML specification, and maybe streamline it with operator overloading.
-This actually seems like an AWESOME idea!
-Basically, you would write python scripts that can output to MathML+HTML *or* LaTeX!
-I could also use templating to divvy up the content more; like if you want to have your text content be separate from the python that ties it all together!
-The cool thing about this is that it lets you have the power of python while you're writing your document ;)
+  I could create classes for each of the tags in the Content-MathML specification, and maybe streamline it with operator overloading.
+  This actually seems like an AWESOME idea!
+  Basically, you would write python scripts that can output to MathML+HTML *or* LaTeX!
+  I could also use templating to divvy up the content more; like if you want to have your text content be separate from the python that ties it all together!
+  The cool thing about this is that it lets you have the power of python while you're writing your document ;)

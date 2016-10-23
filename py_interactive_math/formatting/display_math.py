@@ -3,6 +3,7 @@
 
 from ..math.formula import Formula
 
+
 class DisplayMath:
     """Base class for displaying mathematical expressions.
 

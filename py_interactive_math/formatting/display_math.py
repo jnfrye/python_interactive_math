@@ -1,9 +1,9 @@
-"""The base class for all mathematical expressions.
+"""The base class for displaying mathematical expressions.
 """
 
 
-class Math:
-    """Base class for mathematical expressions.
+class DisplayMath:
+    """Base class for displaying mathematical expressions.
 
     This handles rendering of the input formula (it can be thought of as a
     `\begin{equation}...\end{equation}` block from LaTeX.)
@@ -15,7 +15,7 @@ class Math:
             name: {
                 'type': str, 'help': "Name of this expression "
                                      "(for cross-referencing)"}):
-        """Instantiate a Math object."""
+        """Instantiate an object of this class."""
 
         self.formula = formula
         self.name = name

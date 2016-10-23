@@ -1,6 +1,7 @@
 """The base class for displaying mathematical expressions.
 """
 
+from ..math.formula import Formula
 
 class DisplayMath:
     """Base class for displaying mathematical expressions.
@@ -11,7 +12,7 @@ class DisplayMath:
     def __init__(
             self,
             formula: {
-                'type': int, 'help': "Formula to be rendered."},
+                'type': Formula, 'help': "Formula to be rendered."},
             name: {
                 'type': str, 'help': "Name of this expression "
                                      "(for cross-referencing)"}):

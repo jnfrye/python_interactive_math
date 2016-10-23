@@ -8,5 +8,5 @@ class Function:
 
     def __init__(
             self,
-            *args: "Arbitrary number of function arguments",):
+            *args: "Arbitrary number of function arguments"):
         self.args = args

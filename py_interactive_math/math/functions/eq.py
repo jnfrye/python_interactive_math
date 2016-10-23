@@ -7,5 +7,5 @@ class Eq(Function):
     """Equality (=) function."""
     content_mathml_tag = "eq"
 
-    def __init__(self):
-        super().__init__()
+    def __init__(self, *args):
+        super().__init__(*args)

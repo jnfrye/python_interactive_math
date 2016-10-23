@@ -6,6 +6,6 @@ class Identifier:
     def __init__(
             self,
             name,
-            symbol=name):
+            symbol=""):
         self.name = name
         self.symbol = symbol
